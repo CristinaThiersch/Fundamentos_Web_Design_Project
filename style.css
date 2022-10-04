@@ -1,0 +1,69 @@
+body 
+    {
+        background: #eeb174;
+    }
+
+header
+    {
+        padding: 20px 0;
+    }
+
+#logo
+    {
+        width: 10%;
+        
+    }
+
+.menu
+    {
+        position: relative;
+    }
+
+nav
+    {
+        position: absolute;
+        top: 5px;
+    }
+
+nav li
+    {
+        display: inline;
+        margin: 0 0 0 15px;
+    }
+
+nav a
+    {
+        text-transform: uppercase;
+        color: #eeb174;
+        font-style: 22px;
+        text-decoration: none;
+    }
+
+h1
+    {
+        text-align: right;
+        color: #8c443b;
+        font-size: 55px;
+        font-style: italic;
+        font-family: cursive;
+    }
+   
+h2
+    {
+        text-align: right;
+        color: #8c443b;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+p
+    {
+        text-align: center;
+    }
+
+li
+{
+    background: #8c443b;
+    color: #eeb174;
+    list-style-image: url(imagens/biscoito.png);
+}
