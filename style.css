@@ -6,11 +6,12 @@ body
 header
     {
         padding: 20px 0;
+        background: url(imagens/fundo.png);
     }
 
 #logo
     {
-        width: 10%;
+        width: 6%;
         
     }
 
@@ -22,7 +23,7 @@ header
 nav
     {
         position: absolute;
-        top: 5px;
+        top: 0px;
     }
 
 nav li
@@ -35,7 +36,7 @@ nav a
     {
         text-transform: uppercase;
         color: #eeb174;
-        font-style: 22px;
+        font-style: 20px;
         text-decoration: none;
     }
 
@@ -66,4 +67,36 @@ li
     background: #8c443b;
     color: #eeb174;
     list-style-image: url(imagens/biscoito.png);
+    display: inline-block;
+	text-align: center;
+	width: 100%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 10px 7px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+    font-weight: bold;    
+}
+
+.imagemFundo{
+    text-align: right;
+}
+#teste{
+    right: 0;
+    width: 70%;
+}
+.publicacoes{
+    position: absolute;
+   height: 400px;
+    width: 400px;
+
 }
